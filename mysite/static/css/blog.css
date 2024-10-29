@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: red;
+
+}
+
+#detail {
+    color: blueviolet;
+}
+
+#content a {
+    color: black;
+    text-decoration: none;
+}
+
+#sidebar {
+    background-color:darksalmon;
+    color:  green;
+    text-align: center;
+}
