@@ -1,5 +1,5 @@
 {% extends "blog/base.html" %}
-{% block title %}My Blog{% endblock %}
+{% block title %}Мій блог{% endblock %}
 
 {% block content %}
     <h1 class="test">Мій блог</h1>
@@ -10,8 +10,10 @@
             </a>
         </h2>
         <p class="date">
-            Published {{ post.publish }} by {{ post.author }}
+            Опубліковано {{ post.publish }} від {{ post.author }}
         </p>
         {{ post.body|truncatewords:30|linebreaks }}
+        <hr>
     {% endfor %}
+    {% include "pagination.html" with page=page_obj %}
 {% endblock %}

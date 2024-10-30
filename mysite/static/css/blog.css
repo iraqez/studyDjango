@@ -18,3 +18,13 @@ h1 {
     color:  green;
     text-align: center;
 }
+
+.date {
+    font-style: italic;
+    font-size: smaller;
+    text-align:justify;
+}
+
+.pagination.current {
+    text-align: center;
+}

@@ -1,7 +1,7 @@
 /my_env
 /mysite/node_modules
-mysite/package.json
-mysite/package-lock.json
+/mysite/package.json
+/mysite/package-lock.json
 *.pyc
-mysite/mysite/__pycache__
-mysite/db.sqlite3
+/mysite/mysite/__pycache__
+/mysite/db.sqlite3
